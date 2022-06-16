@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.section {
+    margin-bottom: 7vw;
+    padding: 2vw;
+    background-color: beige;
+    border-radius: 5%;
+}
+
+.textarea1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    width: 50%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border: 0.5px solid #919191;
+}
+.textarea2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    width: 90%;
+    border: 0.5px solid #919191;
+}
+/* モバイル表示(画面サイズが768px以下の時）*/
+@media (max-width: 768px) {
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .main {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .textarea1 {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 18px;
+        height: 40px;
+        width: 70%;
+        border: 0.5px solid #919191;
+    }
+    .textarea2 {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 18px;
+        height: 350px;
+        width: 90%;
+        border: 0.5px solid #919191;
+    }
+}
